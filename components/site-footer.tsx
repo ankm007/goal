@@ -20,7 +20,7 @@ export function SiteFooter() {
         <div className="mt-6 flex flex-wrap gap-3">
           <a
             href="mailto:anamika.more@example.com"
-            className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
+            className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-all duration-200 ease-out hover:-translate-y-0.5 hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/25 active:translate-y-0"
           >
             <Mail className="size-4" aria-hidden="true" />
             anamika.more@example.com
@@ -29,7 +29,7 @@ export function SiteFooter() {
             href="https://github.com/anamikamore"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-lg border border-border px-4 py-2.5 text-sm font-semibold transition-colors hover:border-accent hover:text-accent"
+            className="inline-flex items-center gap-2 rounded-lg border border-border px-4 py-2.5 text-sm font-semibold transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-accent hover:bg-accent/10 hover:text-accent hover:shadow-lg hover:shadow-accent/10 active:translate-y-0"
           >
             <Github className="size-4" aria-hidden="true" />
             GitHub

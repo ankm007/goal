@@ -1,5 +1,6 @@
 import { ChevronDown, ExternalLink } from 'lucide-react'
 import { SectionHeading } from '@/components/section-heading'
+import { ExamCountdown } from '@/components/exam-countdown'
 
 type Formula = { label: string; expr: string }
 
@@ -62,6 +63,8 @@ export function ResourcesSection() {
           Compact formula sheets for last-minute revision. Expand a card to see the key formulas.
         </SectionHeading>
 
+        <ExamCountdown />
+
         <div className="mt-10 grid items-start gap-4 md:grid-cols-3">
           {topics.map((topic) => (
             <article
@@ -75,7 +78,7 @@ export function ResourcesSection() {
               <h3 className="mt-4 text-lg font-semibold">{topic.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{topic.summary}</p>
               <details className="group mt-5 border-t border-border pt-4">
-                <summary className="flex cursor-pointer list-none items-center justify-between rounded-sm text-sm font-medium text-primary [&::-webkit-details-marker]:hidden">
+                <summary className="flex cursor-pointer list-none items-center justify-between rounded-md text-sm font-medium text-primary transition-all duration-200 hover:text-primary/80 hover:[&>svg]:translate-y-0.5 [&::-webkit-details-marker]:hidden">
                   View {topic.formulas.length} key formulas
                   <ChevronDown className="size-4 transition-transform group-open:rotate-180" aria-hidden="true" />
                 </summary>
