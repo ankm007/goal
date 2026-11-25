@@ -18,14 +18,14 @@ export function Hero() {
         <div className="mt-9 flex flex-wrap gap-3">
           <a
             href="#resources"
-            className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
+            className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-all duration-200 ease-out hover:-translate-y-0.5 hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/25 active:translate-y-0"
           >
             <BookOpen className="size-4" aria-hidden="true" />
             Browse revision notes
           </a>
           <a
             href="#about"
-            className="inline-flex items-center gap-2 rounded-lg border border-border px-5 py-3 text-sm font-semibold transition-colors hover:border-accent hover:text-accent"
+            className="inline-flex items-center gap-2 rounded-lg border border-border px-5 py-3 text-sm font-semibold transition-all duration-200 ease-out hover:-translate-y-0.5 hover:border-accent hover:bg-accent/10 hover:text-accent hover:shadow-lg hover:shadow-accent/10 active:translate-y-0"
           >
             About me
             <ArrowRight className="size-4" aria-hidden="true" />
