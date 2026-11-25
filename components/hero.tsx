@@ -8,10 +8,11 @@ export function Hero() {
           <span className="size-1.5 rounded-full bg-accent" aria-hidden="true" />
           Preparing for SSC JE &amp; RRB JE (Civil)
         </p>
-        <h1 className="max-w-3xl text-balance text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
-          Building strong foundations — in structures and in{' '}
-          <span className="text-primary">exam prep</span>.
+        <h1 className="max-w-3xl text-balance text-4xl font-semibold leading-tight tracking-tight text-[#f4f1eb] md:text-6xl">
+          Building strong foundations : In structures and{' '}
+          <span className="text-primary">Exam Prep.</span>
         </h1>
+        <p className="mt-4 text-sm font-medium text-accent">Now live on GitHub</p>
         <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground">
           {"I'm Anamika More, a B.Tech Civil Engineering graduate. I design with AutoCAD and STAAD.Pro, evaluate AI systems, and share concise revision notes for fellow JE aspirants."}
         </p>
